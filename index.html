@@ -9,6 +9,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-FJ4YKQPWFX');
+
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,7 @@
           <p class="lead mb-4">Want to improve your steps count when in office? Generate ideas to help you get in more steps during lunch hours and after work (and maybe discover new food spots while you're at it too!). </p>
           
         </div>
-        
+
       </div>
 
 
@@ -96,7 +97,7 @@
 
       resultContainer.innerHTML = randomIdea.text;
 
-      uniqueImage.src = randomIdea.src;
+      uniqueImage.src = randomIdea.src + '?' + new Date().getTime();
 
       mapLink.href = randomIdea.mapLink;
 
