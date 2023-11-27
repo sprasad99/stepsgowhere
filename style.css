@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .hero-unit {
+  background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  }
+
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  #imageContainer {
+    margin-top: 20px;
+    display: none;
+  }
+
+  #uniqueImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
